@@ -1,3 +1,5 @@
+#include "../system/fs.h"
+
 void print(const char* str) {
     unsigned short* video_memory = (unsigned short*)0xB8000;
 
@@ -7,8 +9,8 @@ void print(const char* str) {
 }
 
 void kernel_main() {
+    init_system();
     print("Welcome to LuminosityOS!");
-    
     while(1) {
     }
 }  
