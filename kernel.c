@@ -1,3 +1,5 @@
+#include "../system/fs.h"
+
 void print(const char* str) {
     unsigned short* video_memory = (unsigned short*)0xB8000;
 
@@ -7,16 +9,8 @@ void print(const char* str) {
 }
 
 void kernel_main() {
+    init_system();
     print("Welcome to LuminosityOS!");
-    print("-------------------------");
-    print("We are going to install system files...");
-    //code will go here
-    print("Installation has finished, awaiting boot into graphics mode");
-    print("While you wait, here is my 'thanks you's!");
-    print("Thanks to KolibriOS and its devs for inspiration");
-    print("Thanks to my friends for being supportive");
-    print("And thank you for making this possible ;)");
-    
     while(1) {
     }
 }  
