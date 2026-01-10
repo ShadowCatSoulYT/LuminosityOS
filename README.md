@@ -13,7 +13,7 @@ There is no real usability yet — things may boot, break, or do absolutely noth
 Development is slow and experimental, and bugs and errors are checked roughly once a week.
 
 ## What works?
-Honestly: **BARELY ANYTHING**.
+Boots with cd and using grub and  prints one text
 The project is still being tested and explored, so stability and functionality are not guaranteed.
 
 ## Why this exists
@@ -29,7 +29,7 @@ A fully everyday-usable operating system that:
 - Is made out of passion, not corporate control ;)
 
 ## Testing
-LuminosityOS is currently tested using **QEMU**.
+LuminosityOS is currently tested using **QEMU** and **COPY.SH**.
 
 ## Warning ⚠️
 - Made by a **very low-experience programmer**
@@ -40,7 +40,7 @@ LuminosityOS is currently tested using **QEMU**.
 - 
 If you're here expecting a finished OS: this is not it.
 If you're here to learn, explore, or just vibe with OS dev: welcome.
-To know when it is available for use check my profile, a web project will appear for a Download link
+AVAILABLE FOR DOWNLOAD BUT NOT RECOMENDED TO BOOT OUT OF VM!
 
 ## License
 MIT License
