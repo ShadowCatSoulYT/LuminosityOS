@@ -14,6 +14,6 @@ void print(const char* s) {
 }
 
 void kernel_main(void) {
-    print("I will bust if this works");
+    print("IT WORKS");
     while (1) { __asm__ volatile ("hlt"); } /* halt CPU until next interrupt */
 }
